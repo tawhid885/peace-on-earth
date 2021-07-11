@@ -16,6 +16,9 @@ h2{
     font-weight: 900;
     font-size: 2em;
 }
+h3{
+    font-weight: bolder;
+}
 #small{
     font-size: .9em;
     color:rgb(58, 57, 57);
@@ -247,16 +250,17 @@ main{
     /* border: 2px solid blue; */
 }
 .company{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 160px;
-    justify-content: center;;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 .company-name{
     /* width: 80%; */
     /* justify-content: center; */
     /* border: 2px solid tomato; */
 }
-.company-name h3{
+.company h3{
     justify-content: center;
     font-weight: bold;
     font-size: 1.3em;
@@ -274,3 +278,83 @@ main{
 .items .item-image img{
     height: 30px;
 }
+.brand-part{
+    justify-content: center;
+    /* border: 2px solid blue; */
+    margin-bottom: 100px;
+}
+.brand{
+    border: 2px solid red;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    height: 220px;
+    width: 80%;
+}
+.brand .heading{
+    /* border: 2px solid green; */
+    /* width: 50%; */
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.brand .pic{
+    /* border: 2px solid blue; */
+    /* width: 50%; */
+}
+.brand .pic .image{
+    /* border: 2px solid tomato; */
+    margin-right: 70px;
+    width: 50%;
+}
+.brand .pic .image img{
+    height: 160px;
+}
+.brand .pic .image p{
+    font-size: .9em;
+    margin-left: 14px;
+    border-bottom: 1px solid red;
+}
+.brand .pic .image p a{
+    text-decoration: none;
+    color: black;
+}
+.extra{
+    width: 80%;
+}
+.extra i{
+    margin-left: 18px;
+    color: red;
+}
+.main-add{
+    /* border: 2px solid blue; */
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.add{
+    /* border: 2px solid red; */
+    width: 85%;
+}
+.add .add-image{
+    width: 26%;
+    margin-left: 20px;
+    box-shadow: 5px 5px 8px #888888;
+    border: 1px solid gray;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.img-1, .img-2, .img-3{
+    width: 85%;
+    border: 10px;
+    margin-top: 15px;
+    border: 1px solid tomato;
+}
+.add .add-image .inner{
+    margin-left: 10px;
+}
+.add .side{
+    width: 22%;
+    margin-left: 20px;
+    border: 2px solid tomato;
+}
+
