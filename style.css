@@ -157,7 +157,7 @@ main{
 }
 .for-working{
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     /* border: 2px solid tomato; */
 }
 .working{
@@ -245,4 +245,32 @@ main{
 }
 .final .final-2{
     /* border: 2px solid blue; */
+}
+.company{
+    border: 2px solid green;
+    height: 160px;
+    justify-content: center;;
+}
+.company-name{
+    /* width: 80%; */
+    /* justify-content: center; */
+    /* border: 2px solid tomato; */
+}
+.company-name h3{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: gray;
+}
+.items{
+    /* border: 2px solid blue; */
+    justify-content: center;
+}
+.items .item-image{
+    /* border: 2px solid black; */
+    width: 80%;
+    /* justify-content: center; */
+}
+.items .item-image img{
+    height: 30px;
 }
